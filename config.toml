@@ -1,0 +1,44 @@
+baseurl = "http://nadavc.com/"
+languageCode = "en-us"
+title = "@nadavc"
+theme = ""
+
+[author]
+name = "Nadav Cohen"
+
+[params]
+sidebartitle = "@nadavc"
+sidebartagline = "why so serious?"
+highlightStyle = "railscasts"
+
+twitter = "https://twitter.com/nadavc"
+linkedin = "https://linkedin.com/in/nadavcoh"
+github = "https://github.com/nadavc"
+
+[[menu.main]]
+  name = "about"
+  url = "/posts/about"
+
+[[menu.main]]
+  name = "blog"
+  url = "/"
+
+[[menu.social]]
+pre = "<i class='fa fa-twitter'></i>"
+url = "https://twitter.com/nadavc"
+identifier = "twitter"
+
+[[menu.social]]
+pre = "<i class='fa fa-github'></i>"
+url = "https://github.com/nadavc"
+identifier = "github"
+
+[[menu.social]]
+pre = "<i class='fa fa-linkedin'></i>"
+url = "https://linkedin.com/in/nadavcoh"
+identifier = "linkedin"
+
+[[menu.social]]
+  pre = "<i class='fa fa-rss'></i>"
+  url = "/post/index.xml"
+  identifier = "rss"
