@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  {{ partial "header.html" }}
+  {{ partial "header.html" . }}
   <style>
     body {
       border-top: 5px solid #108455;
@@ -47,7 +47,7 @@
     </div>
 
     <div class="row" style="margin-top: 20px;">
-      <div class="col-sm-12" style="text-align: center"><a href="{{.Site.BaseUrl}}">Back to Home</a></div>
+      <div class="col-sm-12" style="text-align: center"><a href="/">Back to Home</a></div>
     </div>
 
 

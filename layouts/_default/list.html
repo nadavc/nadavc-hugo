@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  {{ partial "header.html" }}
+  {{ partial "header.html" . }}
   <style>
     body {
       border-top: 5px solid #108455;
@@ -80,7 +80,7 @@
       <div class="col-sm-3"></div>
       <div class="col-sm-2" style="font-size: 1.4em; text-align: right">{{ dateFormat "Jan 2, 2006" .Date }}</div>
       <div class="col-sm-6" style="font-size: 1.4em">
-        <a class="hvr-underline-reveal" style="text-decoration: none;" href="{{ .Permalink }}">{{ .Title }}</a>
+        <a class="hvr-underline-reveal" style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
       </div>
       <div class="col-sm-1"></div>
     </div>
