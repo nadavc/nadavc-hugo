@@ -7,7 +7,7 @@ I've recently had the pleasure of trying out [Kotlin](http://kotlinlang.org) for
 
 ### Does it work with Spring?
 
-JetBrains promises 100% interoperability with Java, but it's not immediately obvious how to get all the pieces working together. In this post I will outline some gotchas when building a Spring Boot "Hello World" working. For the impatient, there's a fully working example at the end.
+JetBrains promises 100% interoperability with Java, but it's not immediately obvious how to get all the pieces working together. In this post I will outline some gotchas when building a Spring Boot "Hello World". For the impatient, there's a fully working example at the end.
 
 ### Running bootRun from Gradle
 
